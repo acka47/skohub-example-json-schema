@@ -7,10 +7,10 @@
         "@context": [
           "https://w3id.org/kim/lrmi-profile/draft/context.jsonld",
           {
-            "@language": "de"
+            "@language": "en"
           }
         ]
-},
+    },
     "properties":{
        "name":{
           "title":"Title",
