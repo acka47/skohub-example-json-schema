@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/schema.json",
+  "title": "OER",
+  "description": "This is a generic JSON schema for describing an Open Educational Resource with schema.org",
+  "type": "object",
+  "default": {
+    "@context": [
+      "https://w3id.org/kim/lrmi-profile/draft/context.jsonld",
+      {
+        "@language": "de"
+      }
+    ]
+  },
+  "properties": {
+    "name": {
+      "$ref": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/name.json"
+    },
+    "description": {
+      "$ref": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/description.json"
+    },
+    "id": {
+      "$ref": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/id.json"
+    },
+    "type": {
+      "$ref": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/type.json"
+    }
+  }
+}

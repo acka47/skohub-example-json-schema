@@ -1,0 +1,11 @@
+{
+    "$id": "https://acka47.github.io/skohub-example-json-schema/split-up-schema/description.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Description",
+    "description": "A description of the learning resource",
+    "type": "string",
+    "_display": {
+        "rows": 5,
+        "placeholder": "A short description of the resource"
+    }
+}
