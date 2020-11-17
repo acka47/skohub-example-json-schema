@@ -132,7 +132,7 @@
         "_widget": {
             "type": "SkohubLookup",
             "options": {
-              "url": "https://acka47.github.io/skohub-example-subjects/w3id.org/acka47/subjects/index"
+              "url": "https://acka47.github.io/skohub-example-subjects/w3id.org/acka47/subjects/"
         }
       }
     }
